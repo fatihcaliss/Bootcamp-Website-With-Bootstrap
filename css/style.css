@@ -70,6 +70,52 @@
 
 /*! ------------ 5- COURSES SECTION ------------- */
 
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #bb2d3b;
+  border: none;
+}
+
+.tab-content img {
+  max-width: 100%;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
 /*! ------------ 6- CONTACT SECTION ------------ */
 
 /*! ---------------- 7- FOOTER --------------- */
+
+footer i {
+  cursor: pointer;
+  color: white;
+  transition: 1s;
+}
+
+footer i:hover {
+  cursor: pointer;
+  color: #bb2d3b;
+}
+
+.return-top{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  bottom: 20px;
+  right: 20px;
+  background-color:#bb2d3b;
+  border-radius: 50%;
+}
+
+.return-top i{
+  color: white;
+}
+.return-top:hover i{
+  color: yellow;
+}
